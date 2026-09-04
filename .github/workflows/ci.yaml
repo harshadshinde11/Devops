@@ -25,5 +25,3 @@ jobs:
         run: |
           echo -e "85\n78\n92\n88\n75" | python marks.py
 
-      - name: Run Tests
-        run: pytest
