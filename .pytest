@@ -2,18 +2,18 @@ from marks import calculate_result
 
 
 def test_total_marks():
-    marks = [85, 78, 92, 88, 75]
+    marks = [99, 98, 95, 15, 40]
     total, percentage, grade = calculate_result(marks)
     assert total == 418
 
 
 def test_percentage():
-    marks = [85, 78, 92, 88, 75]
+    marks = [99, 98, 95, 15, 40]
     total, percentage, grade = calculate_result(marks)
     assert percentage == 83.6
 
 
 def test_grade():
-    marks = [85, 78, 92, 88, 75]
+    marks = [99, 98, 95, 15, 40]
     total, percentage, grade = calculate_result(marks)
     assert grade == "A"
