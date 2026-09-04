@@ -23,7 +23,7 @@ jobs:
 
       - name: Run Python Program
         run: |
-          echo -e "85\n78\n92\n88\n75" | python marks.py
+          echo -e "99\n98\n95\n15\n40" | python marks.py
 
       - name: Run Tests
         run: pytest
