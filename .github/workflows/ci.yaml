@@ -22,7 +22,6 @@ jobs:
         run: pip install pytest
 
       - name: Run Python Program
+        shell: pwsh
         run: |
-          echo -e "99\n98\n95\n15\n40" | python marks.py
-
-      
+          "99`n98`n95`n15`n40" | python marks.py
